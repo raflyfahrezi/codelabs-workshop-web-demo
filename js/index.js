@@ -6,6 +6,7 @@ const showData = (movies) => {
 
     for (let index = 0; index < movies.length; index++) {
         const data = movies[index]
+
         const year = new Date(data.release_date).getFullYear()
 
         HTMLCard += `
